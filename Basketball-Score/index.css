@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #36454F;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+.home {
+    font-weight: bold;
+}
+.guest {
+    font-weight: bold;
+  
+}
+#count-home {
+    background-color: #191970;
+    font-size: 50px;
+    padding: 20px 40px;
+}
+#count-gst {
+    background-color: #191970;
+    font-size: 50px;
+    padding: 20px 40px;
+}
+.button {
+    padding-bottom: 20px;
+    font-family: "Pixelify Sans", sans-serif;
+
+}
+#hm1 {
+    text-align: center;
+    margin: 0 10px;
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: bold;
+    text-shadow: 10px 5px 5px 5px black;
+}
+#hm2 {
+    text-align: center;
+    margin: 0 10px;
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: bold;
+    text-shadow: 10px 5px 5px 5px black;
+}
+#hm3 {
+    text-align: center;
+    margin: 0 10px;
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: bold;
+    text-shadow: 10px 5px 5px 5px black;
+}
+#gst1 {
+    text-align: center;
+    margin: 0 10px;
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: bold;
+    text-shadow: 10px 5px 5px 5px black;
+}
+#gst2 {
+    text-align: center;
+    margin: 0 10px;
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: bold;
+    text-shadow: 10px 5px 5px 5px black;
+}
+#gst3 {
+    text-align: center;
+    margin: 0 10px;
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: bold;
+    text-shadow: 10px 5px 5px 5px black;
+}
+#hm1 {
+    text-align: center;
+    margin: 0 10px;
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: bold;
+    text-shadow: 10px 5px 5px 5px black;
+}
+
+.reset {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    text-align: center;
+}
+#reset_all {
+    text-align: center;
+    margin: 20px 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+    text-shadow: 10px 5px 5px 5px black;
+    font-family: "Pixelify Sans", sans-serif;
+
+}

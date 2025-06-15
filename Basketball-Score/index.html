@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Jersey+10&family=Orbitron:wght@400..900&family=Pixelify+Sans:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="home">HOME</h3>
+                <h1 id="count-home">0</h1>
+                <div class="button">
+                    <button id="hm1" onclick="addhm1()">+1</button>
+                    <button id="hm2" onclick="addhm2()">+2</button>
+                    <button id="hm3" onclick="addhm3()">+3</button>
+                </div>
+            </div>
+            <div class="reset">
+                <button id="reset_all" onclick="reset()">Reset All</button>
+            </div>
+            <div>
+                <h3 class="guest">GUEST</h3>
+                <h1 id="count-gst">0</h1>
+                
+                <div class="button">
+                    <button id="gst1" onclick="addgst1()">+1</button>
+                    <button id="gst2"  onclick="addgst2()">+2</button>
+                    <button id="gst3"  onclick="addgst3()">+3</button>
+                </div>
+                
+            </div>
+            
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
