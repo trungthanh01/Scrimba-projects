@@ -9,15 +9,15 @@ input {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #5f9341;
+    border: 1px solid #273549;
     margin-bottom: 4px;
 }
 
 button {
-    background: #5f9341;
+    background: #273549;
     color: white;
     padding: 10px 20px;
-    border: 1px solid #5f9341;
+    border: 1px solid #034a33;
     font-weight: bold;
 }
 button:hover {
@@ -27,7 +27,7 @@ button:hover {
 
 #delete-btn {
     background: white;
-    color: #5f9341;
+    color: #034a33;
 }
 button#delete-btn:hover {
     background: #7fb665;
