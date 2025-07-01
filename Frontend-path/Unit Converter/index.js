@@ -11,6 +11,7 @@ function floor2(val) {
 // run all conversions & update UI
 function convert() {
   const raw = parseFloat(document.getElementById('value-input').value) || 0;
+  
 
   // LENGTH
   const m2f = floor2(raw * M2F).toFixed(2);

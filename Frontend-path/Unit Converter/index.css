@@ -13,7 +13,6 @@ body {
 /* main container */
 .converter-container {
   width: 360px;
-  background: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   overflow: hidden;
@@ -23,9 +22,8 @@ body {
 .converter-container h1 {
   margin: 0;
   padding: 16px;
-  background: #6c5ce7;
   color: #fff;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -36,27 +34,33 @@ body {
   justify-content: center;
   align-items: center;
   padding: 16px;
-  background-color: #5b4bd8;
+  background-color: blue;
 }
 .input-group input {
   width: 100px;
-  padding: 8px;
+  padding: 20px;
+  margin: 20px 0;
   font-size: 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid #6c5ce7;
+  background-color: red;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2em;
   border-radius: 4px;
+  text-align: center;
 }
 .input-group button {
-  margin-left: 8px;
+  margin: 0 auto;
   padding: 8px 16px;
   font-size: 1rem;
-  background: #6c5ce7;
+  background: green;
   color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 .input-group button:hover {
-  background: #5b4bd8;
+  background: #802273;
 }
 
 /* results */
