@@ -1,0 +1,119 @@
+/* Thiết lập chung */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 375px; /* Chiều rộng giống điện thoại */
+    background-color: #ffffff;
+    border: 1px solid #c6c6c6;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.logo {
+    height: 34px;
+    font-family: 'Lobster', cursive; /* Font cho logo */
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Main Feed */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Khoảng cách giữa các bài đăng */
+    padding-bottom: 15px;
+}
+
+/* Định dạng bài đăng */
+.post {
+    width: 100%;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.post-header .avatar {
+    margin-right: 7px;
+}
+
+.post-header-info .name {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.post-header-info .location {
+    font-size: 12px;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    display: block; /* Xóa khoảng trống dưới ảnh */
+    cursor: pointer; /* Cho biết có thể double click */
+}
+
+.post-body {
+    padding: 15px;
+}
+
+.post-actions {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.action-icon {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.action-icon:hover {
+    opacity: 0.7;
+}
+
+.post-likes {
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.post-comment {
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.post-comment .username {
+    font-weight: 700;
+}
