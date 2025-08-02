@@ -1,0 +1,235 @@
+body {
+    font-family: 'Smythe', cursive;
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+/* Header */
+header {
+    background-image: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2070&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 45px 20px;
+    text-shadow: 0px 0px 5px black;
+}
+
+header h1 {
+    font-size: 39px;
+    margin: 0;
+}
+
+header h2 {
+    font-family: 'Smythe', cursive;
+    font-size: 22px;
+    margin: 10px 0 0 0;
+    font-weight: 400;
+}
+
+main {
+    padding: 0 20px;
+}
+
+/* Menu Section */
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.item-emoji {
+    font-size: 60px;
+    margin-right: 20px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.item-details h3, .item-details p {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+}
+
+.item-details h3 {
+    font-size: 28px;
+}
+
+.item-details .item-ingredients {
+    color: #8B8B8B;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.item-details .item-price {
+    font-size: 20px;
+}
+
+.add-btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    color: #3C3C3C;
+}
+
+.add-btn:hover {
+    background-color: #f0f0f0;
+}
+
+/* Order Section */
+#order-section {
+    margin-top: 50px;
+}
+
+#order-section h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-family: 'Smythe', cursive;
+    font-size: 28px;
+}
+
+.order-item-name {
+    flex-grow: 1;
+}
+
+.remove-btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #BBBBBB;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.remove-btn:hover {
+    color: #ff0000;
+}
+
+.order-item-price {
+    font-size: 20px;
+}
+
+.total-price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #393333;
+    margin-top: 20px;
+    padding-top: 15px;
+    font-family: 'Smythe', cursive;
+    font-size: 28px;
+}
+
+.total-price-section .total-price {
+    font-size: 20px;
+}
+
+.complete-order-btn {
+    width: 100%;
+    padding: 18px;
+    background-color: #16DB99;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.complete-order-btn:hover {
+    background-color: #13b980;
+}
+
+/* Payment Modal */
+#payment-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-inner {
+    background-color: white;
+    width: 500px;
+    max-width: 90%;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+.modal-inner h2 {
+    font-family: 'Smythe', cursive;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.modal-inner form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modal-inner input {
+    padding: 15px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.modal-inner .pay-btn {
+    background-color: #16DB99;
+    color: white;
+    border: none;
+    padding: 18px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.modal-inner .pay-btn:hover {
+     background-color: #13b980;
+}
+
+/* Confirmation Message */
+#confirmation-message {
+    background-color: #ECFDF5;
+    color: #065F46;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    border-radius: 3px;
+    font-family: 'Smythe', cursive;
+    font-size: 32px;
+}
+
+/* Utility Class */
+.hidden {
+    display: none !important;
+}

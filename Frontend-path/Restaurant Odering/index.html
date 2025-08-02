@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Restaurant Odering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jimmy's Diner</h1>
+        <h2>The best burgers and pizzas in town.</h2>
+    </header>
+    <main>
+        <div id="menu">
+            <!-- Menu items will be rendered here by JavaScript -->
+        </div>
+        <div id="order-section" class="hidden">
+            <h2>Your order</h2>
+            <div id="order-items-container">
+                <!-- Order items will be rendered here -->
+            </div>
+            <div class="total-price-section">
+                <p>Total price:</p>
+                <p class="total-price" id="total-price">$0</p>
+            </div>
+            <button class="complete-order-btn" id="complete-order-btn">Complete order</button>
+        </div>
+        <div id="confirmation-message" class="hidden">
+             <!-- Confirmation message will be rendered here -->
+        </div>
+    </main>
+    
+    <div id="payment-modal" class="hidden">
+        <div class="modal-inner">
+            <h2>Enter card details</h2>
+            <form id="payment-form">
+                <input type="text" name="fullName" placeholder="Enter your name" required>
+                <input type="text" name="cardNumber" placeholder="Enter card number" required>
+                <input type="text" name="cvv" placeholder="Enter CVV" required>
+                <button type="submit" class="pay-btn">Pay</button>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
